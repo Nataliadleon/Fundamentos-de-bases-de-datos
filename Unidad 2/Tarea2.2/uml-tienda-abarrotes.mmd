@@ -1,0 +1,98 @@
+classDiagram
+    direction TB
+    class Nombre {
+        -nombrePila : String
+        -apellidoPaterno : String
+        -apellidoMaterno : String
+    }
+    class Persona {
+        -idPersona : Integer
+        -telefonos : List~String~
+        -fechaNacimiento : Date
+        -/edad : Integer
+        +calcularEdad() : Integer
+    }
+    class Cliente {
+        -limiteCredito : Decimal
+        -fechaRegistro : Date
+        -/saldoPendiente : Decimal
+        +calcularSaldoPendiente() : Decimal
+    }
+    class Empleado {
+        <<abstract>>
+        -fechaContratacion : Date
+        -salario : Decimal
+        -/antiguedad : Integer
+        +calcularAntiguedad() : Integer
+    }
+    class Cajero {
+        -turno : String
+    }
+    class Repartidor {
+        -licencia : String
+        -vehiculo : String
+    }
+    class Venta {
+        -folio : Integer
+        -fechaHora : DateTime
+        -metodoPago : String
+        -/total : Decimal
+        +calcularTotal() : Decimal
+    }
+    class DetalleVenta {
+        -cantidad : Integer
+        -precioUnitario : Decimal
+        -/subtotal : Decimal
+        +calcularSubtotal() : Decimal
+    }
+    class Categoria {
+        -idCategoria : Integer
+        -nombreCat : String
+    }
+    class Producto {
+        -codigoBarras : String
+        -nombre : String
+        -costoCompra : Decimal
+        -precioVenta : Decimal
+        -stockActual : Integer
+        -stockMinimo : Integer
+        -/margen : Decimal
+        +calcularMargen() : Decimal
+        +necesitaReabastecer() : Boolean
+    }
+    class Abastecimiento {
+        -costoUnitario : Decimal
+    }
+    class PedidoReabastecimiento {
+        -fechaPedido : Date
+        -cantidadPedida : Integer
+    }
+    class Proveedor {
+        -idProveedor : Integer
+        -razonSocial : String
+        -telefonos : List~String~
+    }
+    class Direccion {
+        -calle : String
+        -numero : String
+        -colonia : String
+        -codigoPostal : String
+    }
+    Persona <|-- Cliente
+    Persona <|-- Empleado
+    Empleado <|-- Cajero
+    Empleado <|-- Repartidor
+    Persona "1" *-- "1" Nombre
+    Proveedor "1" *-- "1" Direccion
+    Venta "1" *-- "1..*" DetalleVenta
+    Categoria "1" o-- "0..*" Producto : agrupa
+    Cliente "0..1" -- "0..*" Venta : realiza
+    Cajero "1" -- "0..*" Venta : atiende
+    Repartidor "0..1" -- "0..*" Venta : entrega
+    DetalleVenta "0..*" -- "1" Producto : corresponde a
+    Proveedor "1" -- "0..*" Abastecimiento : suministra
+    Producto "1" -- "1..*" Abastecimiento : se surte en
+    Empleado "1" -- "0..*" PedidoReabastecimiento : autoriza
+    Abastecimiento "1" -- "1..*" PedidoReabastecimiento : origina
+    note for Persona "{overlapping, incomplete}"
+    note for Empleado "{disjoint, complete}"
