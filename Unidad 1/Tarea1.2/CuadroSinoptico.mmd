@@ -1,0 +1,45 @@
+flowchart LR
+    R["CLASIFICACIÓN<br/>DE LAS BASES<br/>DE DATOS"]
+
+    R --> U["Según su<br/>ubicación"]
+    R --> V["Según la<br/>variabilidad<br/>de los datos"]
+    R --> M["Según el<br/>modelo de datos"]
+    R --> C["Según su<br/>contenido"]
+    R --> P["Según su<br/>propósito de uso"]
+    R --> N["Según el número<br/>de usuarios"]
+
+    U --> U1["Centralizadas"]
+    U --> U2["Distribuidas"]
+    U --> U3["En la nube (DBaaS)"]
+    U2 --> U21["Homogéneas"]
+    U2 --> U22["Heterogéneas"]
+
+    V --> V1["Estáticas<br/>(históricas, solo lectura)"]
+    V --> V2["Dinámicas<br/>(lectura y escritura continua)"]
+
+    M --> M1["Jerárquicas"]
+    M --> M2["De red"]
+    M --> M3["Relacionales"]
+    M --> M4["Orientadas a objetos"]
+    M --> M5["Objeto-relacionales"]
+    M --> M6["NoSQL"]
+    M --> M7["Multidimensionales"]
+
+    C --> C1["Bibliográficas"]
+    C --> C2["De texto completo"]
+    C --> C3["Directorios"]
+    C --> C4["Especializadas<br/>(científicas, geográficas, multimedia)"]
+
+    P --> P1["Transaccionales (OLTP)"]
+    P --> P2["Analíticas (OLAP /<br/>almacén de datos)"]
+    P --> P3["De propósito general<br/>o específico"]
+
+    N --> N1["Monousuario"]
+    N --> N2["Multiusuario"]
+
+    classDef raiz fill:#1B2A41,color:#fff,stroke:#0B1320
+    classDef cat fill:#1F6FB2,color:#fff,stroke:#134a78
+    classDef hoja fill:#DAE8FC,color:#000,stroke:#6C8EBF
+    class R raiz
+    class U,V,M,C,P,N cat
+    class U1,U2,U3,U21,U22,V1,V2,M1,M2,M3,M4,M5,M6,M7,C1,C2,C3,C4,P1,P2,P3,N1,N2 hoja
