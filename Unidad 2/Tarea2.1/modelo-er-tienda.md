@@ -83,12 +83,11 @@ La relación **suministra** (PROVEEDOR – PRODUCTO) se trata como una **entidad
 
 ## 6. Diagrama E-R extendido (notación Chen)
 
-![Diagrama E-R extendido](diagramas/er-tienda-abarrotes.png)
+![Diagrama E-R extendido](er-tienda-abarrotes.png)
 
 Archivos del diagrama:
-- Fuente editable en draw.io: [`diagramas/er-tienda-abarrotes.drawio`](diagramas/er-tienda-abarrotes.drawio)
-- Vectorial: [`diagramas/er-tienda-abarrotes.svg`](diagramas/er-tienda-abarrotes.svg)
-- Código Mermaid: [`diagramas/er-tienda-abarrotes.mmd`](diagramas/er-tienda-abarrotes.mmd)
+- Vectorial: [`er-tienda-abarrotes.svg`](er-tienda-abarrotes.svg)
+- Código Mermaid: [`er-tienda-abarrotes.mmd`](er-tienda-abarrotes.mmd)
 
 ### Simbología
 

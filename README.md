@@ -30,8 +30,14 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Documento formal en formato PDF: `Tarea1.2.pdf`.
   * Documentación teórica y explicaciones.
 
-  ### [Unidad 2](Unidad)
-  ***
+### [Unidad 2](Unidad%202/)
+
+* **[Tarea 2.1: Modelado conceptual E-R y E-R Extendido de un caso real](Unidad%202/Tarea2.1/)**
+  * Modelado conceptual de una tienda de abarrotes con el modelo Entidad-Relación y sus extensiones.
+  * Descripción del caso, reglas de negocio, entidades, atributos, relaciones y diagrama formal en notación Chen.
+  * Conceptos del E-R extendido: especialización/generalización, jerarquías y agregación.
+  * Documento formal en formato PDF: `Tarea2.1.pdf`.
+  * Documentación detallada en Markdown y diagramas.
 
 ---
 

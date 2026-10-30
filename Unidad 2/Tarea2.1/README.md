@@ -32,7 +32,7 @@ Modelado conceptual de una **tienda de abarrotes de barrio** (negocio local) con
 
 ## 🗺️ Vista previa del diagrama
 
-![Diagrama E-R extendido de la tienda de abarrotes](diagramas/er-tienda-abarrotes.png)
+![Diagrama E-R extendido de la tienda de abarrotes](er-tienda-abarrotes.png)
 
 ## 🛠️ Herramientas utilizadas
 
