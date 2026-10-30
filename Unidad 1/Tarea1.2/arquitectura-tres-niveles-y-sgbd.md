@@ -151,34 +151,6 @@ flowchart TB
 | **Intérprete DDL** | Procesa las definiciones del esquema y las guarda en el diccionario de datos. |
 | **Diccionario de datos (catálogo)** | Almacena los metadatos: esquemas, restricciones y permisos. |
 
-## 3. Flujo de datos entre los niveles de abstracción y los módulos del SGBD
-
-```mermaid
-sequenceDiagram
-    actor Usuario
-    participant Ext as Nivel externo (vista)
-    participant Con as Nivel conceptual
-    participant QP as Procesador de consultas
-    participant SM as Gestor de almacenamiento
-    participant Disco as Almacenamiento físico
-
-    Usuario->>Ext: Consulta sobre una vista
-    Ext->>Con: Transformación externo/conceptual
-    Con->>QP: Consulta sobre el esquema lógico
-    QP->>QP: Analiza, optimiza y genera el plan de ejecución
-    QP->>SM: Solicita datos (transformación conceptual/interno)
-    SM->>SM: Verifica autorización y controla la transacción
-    SM->>Disco: Lee bloques mediante buffer, archivos e índices
-    Disco-->>SM: Bloques de datos
-    SM-->>QP: Registros recuperados
-    QP-->>Con: Resultado
-    Con-->>Ext: Formato de la vista
-    Ext-->>Usuario: Resultado final
-```
-
-**Fuente editable:** [`diagramas/flujo-de-datos.mmd`](diagramas/flujo-de-datos.mmd)
-
-Una consulta formulada sobre una vista (nivel externo) se transforma al esquema conceptual y llega al procesador de consultas, que la analiza y optimiza. El gestor de almacenamiento verifica permisos, controla la transacción y lee los bloques necesarios del disco mediante el buffer. Los datos recuperados regresan por el mismo camino: se organizan según el esquema conceptual y se presentan con el formato de la vista del usuario.
 
 ## Referencias
 
