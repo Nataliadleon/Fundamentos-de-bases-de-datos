@@ -29,16 +29,18 @@ El video explica el mapa conceptual y la comparativa de modelos, con captura de 
 | [Tarea1.1BasesDeDatos.pdf](Tarea1.1BasesDeDatos.pdf) | Documento formal con portada institucional, mapa conceptual, tabla comparativa y referencias APA |
 | [mapa-conceptual.md](mapa-conceptual.md) | Explicación del mapa conceptual |
 | [tabla-comparativa.md](tabla-comparativa.md) | Tabla comparativa de modelos en Markdown |
-}
+| [DiagramaBDDdrawio.svg](DiagramaBDDdrawio.svg) | Diagrama editable del mapa conceptual en formato SVG (draw.io) |
+| [TablaMDBDD.drawio.svg](TablaMDBDD.drawio.svg) | Tabla comparativa editable en formato SVG (draw.io) |
+
 > Los archivos `.svg` fueron exportados desde draw.io con una copia del diagrama incluida, por lo que pueden abrirse y editarse en [app.diagrams.net](https://app.diagrams.net/).
 
 ## 🗺️ Vista previa: mapa conceptual
 
-![Mapa conceptual de bases de datos](MapaConceptual/Diagramabdd.png)
+![Mapa conceptual de bases de datos](DiagramaBDD.drawio.png)
 
 ## 📊 Vista previa: tabla comparativa
 
-![Tabla comparativa de modelos de bases de datos](TablaComparativa/TablaMDBDD.drawio.png)
+![Tabla comparativa de modelos de bases de datos](TablaMDBDD.drawio.png)
 
 ## 🛠️ Herramientas utilizadas
 

@@ -1,8 +1,8 @@
 # Tabla comparativa de modelos de bases de datos
 
-![Tabla comparativa](TablaComparativa/TablaMDBDD.drawio.png)
+![Tabla comparativa](TablaMDBDD.drawio.png)
 
-**Fuente vectorial:** [`TablaComparativa/TablaMDBDD.drawio.svg`](TablaComparativa/TablaMDBDD.drawio.svg)
+**Fuente vectorial:** [`TablaMDBDD.drawio.svg`](TablaMDBDD.drawio.svg)
 
 ## Versión en texto
 
