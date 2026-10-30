@@ -2,13 +2,13 @@
 
 ## Vista previa
 
-![Cuadro sinóptico: clasificación de las bases de datos](diagramas/cuadro-sinoptico.png)
+![Cuadro sinóptico: clasificación de las bases de datos](cuadrosinoptico.png)
 
-**Fuente vectorial:** [`diagramas/cuadro-sinoptico.svg`](diagramas/cuadro-sinoptico.svg)
+**Fuente vectorial:** [`mbddSinoptico.svg`](mbddSinoptico.svg)
 
 ## Versión en Mermaid
 
-GitHub muestra este diagrama directamente. Su código fuente está en [`diagramas/cuadro-sinoptico.mmd`](diagramas/cuadro-sinoptico.mmd).
+GitHub muestra este diagrama directamente. Su código fuente está en [`CuadroSinoptico.mmd`](CuadroSinoptico.mmd).
 
 ```mermaid
 flowchart LR
