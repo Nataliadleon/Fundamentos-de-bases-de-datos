@@ -26,7 +26,7 @@ Modelado conceptual de una **tienda de abarrotes de barrio** (negocio local) con
 
 | Archivo | Descripción |
 |---|---|
-| [Tarea2.1BasesDeDatos.pdf](Tarea2.1BasesDeDatos.pdf) | Documento PDF con el caso, reglas de negocio, tablas y diagrama |
+| [Tarea2.1,pdf](Tarea2.1.pdf) | Documento PDF con el caso, reglas de negocio, tablas y diagrama |
 | [modelo-er-tienda.md](modelo-er-tienda.md) | Documento completo en Markdown (incluye el diagrama en Mermaid) |
 
 
