@@ -1,0 +1,134 @@
+flowchart TB
+    subgraph AGG["ABASTECIMIENTO (agregación)"]
+        PROVEEDOR["PROVEEDOR"]:::ent
+        suministra{"suministra"}:::rel
+        PRODUCTO["PRODUCTO"]:::ent
+        PROVEEDOR ---|"M"| suministra
+        suministra ===|"N"| PRODUCTO
+    end
+    PERSONA["PERSONA"]:::ent
+    CLIENTE["CLIENTE"]:::ent
+    EMPLEADO["EMPLEADO"]:::ent
+    CAJERO["CAJERO"]:::ent
+    REPARTIDOR["REPARTIDOR"]:::ent
+    VENTA["VENTA"]:::ent
+    CATEGORIA["CATEGORIA"]:::ent
+    O(("o")):::circ
+    D(("d")):::circ
+    realiza{"realiza"}:::rel
+    atiende{"atiende"}:::rel
+    entrega{"entrega"}:::rel
+    incluye{"incluye"}:::rel
+    autoriza{"autoriza"}:::rel
+    pertenece{"pertenece a"}:::rel
+    a_PERSONA_id_persona(["<u>id_persona</u>"]):::attr
+    a_PERSONA_nombre(["nombre"]):::attr
+    a_PERSONA_telefono((("teléfono"))):::attr
+    a_PERSONA_fecha_nacimiento(["fecha_nacimiento"]):::attr
+    a_PERSONA_edad(["edad"]):::der
+    a_nombre_pila(["nombre_pila"]):::attr
+    a_ap_pat(["apellido_paterno"]):::attr
+    a_ap_mat(["apellido_materno"]):::attr
+    a_CLIENTE_limite_credito(["limite_credito"]):::attr
+    a_CLIENTE_saldo_pendiente(["saldo_pendiente"]):::der
+    a_CLIENTE_fecha_registro(["fecha_registro"]):::attr
+    a_EMPLEADO_fecha_contratacion(["fecha_contratación"]):::attr
+    a_EMPLEADO_salario(["salario"]):::attr
+    a_EMPLEADO_antigüedad(["antigüedad"]):::der
+    a_CAJERO_turno(["turno"]):::attr
+    a_REPARTIDOR_licencia(["licencia"]):::attr
+    a_REPARTIDOR_vehiculo(["vehículo"]):::attr
+    a_VENTA_folio(["<u>folio</u>"]):::attr
+    a_VENTA_fecha_hora(["fecha_hora"]):::attr
+    a_VENTA_metodo_pago(["método_pago"]):::attr
+    a_VENTA_total(["total"]):::der
+    a_PRODUCTO_codigo_barras(["<u>código_barras</u>"]):::attr
+    a_PRODUCTO_nombre(["nombre"]):::attr
+    a_PRODUCTO_costo_compra(["costo_compra"]):::attr
+    a_PRODUCTO_precio_venta(["precio_venta"]):::attr
+    a_PRODUCTO_margen(["margen"]):::der
+    a_PRODUCTO_stock_actual(["stock_actual"]):::attr
+    a_PRODUCTO_stock_minimo(["stock_mínimo"]):::attr
+    a_CATEGORIA_id_categoria(["<u>id_categoria</u>"]):::attr
+    a_CATEGORIA_nombre_cat(["nombre_cat"]):::attr
+    a_PROVEEDOR_id_proveedor(["<u>id_proveedor</u>"]):::attr
+    a_PROVEEDOR_razon_social(["razón_social"]):::attr
+    a_PROVEEDOR_direccion(["dirección"]):::attr
+    a_PROVEEDOR_telefono_((("teléfono "))):::attr
+    a_dir_calle(["calle"]):::attr
+    a_dir_numero(["número"]):::attr
+    a_dir_colonia(["colonia"]):::attr
+    a_dir_codigo_postal(["código_postal"]):::attr
+    a_incluye_cantidad(["cantidad"]):::attr
+    a_incluye_precio_unitario(["precio_unitario"]):::attr
+    a_incluye_subtotal(["subtotal"]):::der
+    a_suministra_costo_unitario(["costo_unitario"]):::attr
+    a_autoriza_fecha_pedido(["fecha_pedido"]):::attr
+    a_autoriza_cantidad_pedida(["cantidad_pedida"]):::attr
+    PERSONA --- a_PERSONA_id_persona
+    PERSONA --- a_PERSONA_nombre
+    PERSONA --- a_PERSONA_telefono
+    PERSONA --- a_PERSONA_fecha_nacimiento
+    PERSONA --- a_PERSONA_edad
+    a_PERSONA_nombre --- a_nombre_pila
+    a_PERSONA_nombre --- a_ap_pat
+    a_PERSONA_nombre --- a_ap_mat
+    CLIENTE --- a_CLIENTE_limite_credito
+    CLIENTE --- a_CLIENTE_saldo_pendiente
+    CLIENTE --- a_CLIENTE_fecha_registro
+    EMPLEADO --- a_EMPLEADO_fecha_contratacion
+    EMPLEADO --- a_EMPLEADO_salario
+    EMPLEADO --- a_EMPLEADO_antigüedad
+    CAJERO --- a_CAJERO_turno
+    REPARTIDOR --- a_REPARTIDOR_licencia
+    REPARTIDOR --- a_REPARTIDOR_vehiculo
+    VENTA --- a_VENTA_folio
+    VENTA --- a_VENTA_fecha_hora
+    VENTA --- a_VENTA_metodo_pago
+    VENTA --- a_VENTA_total
+    PRODUCTO --- a_PRODUCTO_codigo_barras
+    PRODUCTO --- a_PRODUCTO_nombre
+    PRODUCTO --- a_PRODUCTO_costo_compra
+    PRODUCTO --- a_PRODUCTO_precio_venta
+    PRODUCTO --- a_PRODUCTO_margen
+    PRODUCTO --- a_PRODUCTO_stock_actual
+    PRODUCTO --- a_PRODUCTO_stock_minimo
+    CATEGORIA --- a_CATEGORIA_id_categoria
+    CATEGORIA --- a_CATEGORIA_nombre_cat
+    PROVEEDOR --- a_PROVEEDOR_id_proveedor
+    PROVEEDOR --- a_PROVEEDOR_razon_social
+    PROVEEDOR --- a_PROVEEDOR_direccion
+    PROVEEDOR --- a_PROVEEDOR_telefono_
+    a_PROVEEDOR_direccion --- a_dir_calle
+    a_PROVEEDOR_direccion --- a_dir_numero
+    a_PROVEEDOR_direccion --- a_dir_colonia
+    a_PROVEEDOR_direccion --- a_dir_codigo_postal
+    incluye --- a_incluye_cantidad
+    incluye --- a_incluye_precio_unitario
+    incluye --- a_incluye_subtotal
+    suministra --- a_suministra_costo_unitario
+    autoriza --- a_autoriza_fecha_pedido
+    autoriza --- a_autoriza_cantidad_pedida
+    O ---|"⊂"| CLIENTE
+    O ---|"⊂"| EMPLEADO
+    EMPLEADO === D
+    D ---|"⊂"| CAJERO
+    D ---|"⊂"| REPARTIDOR
+    CLIENTE ---|"1"| realiza
+    realiza ---|"N"| VENTA
+    CAJERO ---|"1"| atiende
+    atiende ===|"N"| VENTA
+    REPARTIDOR ---|"1"| entrega
+    entrega ---|"N"| VENTA
+    VENTA ===|"M"| incluye
+    incluye ---|"N"| PRODUCTO
+    EMPLEADO ---|"1"| autoriza
+    autoriza ===|"N"| AGG
+    PRODUCTO ===|"N"| pertenece
+    pertenece ---|"1"| CATEGORIA
+    PERSONA --- O
+    classDef ent fill:#DAE8FC,stroke:#6C8EBF,stroke-width:2px,color:#000,font-weight:bold
+    classDef rel fill:#FFF2CC,stroke:#D6B656,stroke-width:2px,color:#000
+    classDef attr fill:#fff,stroke:#444,color:#000
+    classDef der fill:#fff,stroke:#444,stroke-dasharray:5 4,color:#000
+    classDef circ fill:#F8CECC,stroke:#B85450,stroke-width:2px,color:#000

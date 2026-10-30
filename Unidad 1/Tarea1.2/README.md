@@ -44,8 +44,7 @@ El video detalla el cuadro sinóptico con los criterios de clasificación, los t
 | [Tarea1.2.pdf](Tarea1.2.pdf) | Documento formal con portada institucional, cuadro sinóptico, descripciones teóricas, esquemas y referencias APA |
 | [cuadro-sinoptico.md](cuadro-sinoptico.md) | Documento en Markdown con desglose analítico de los criterios de clasificación y diagrama Mermaid interactivo |
 | [arquitectura-tres-niveles-y-sgbd.md](arquitectura-tres-niveles-y-sgbd.md) | Documento en Markdown que describe y esquematiza la arquitectura de 3 niveles y la arquitectura interna del SGBD |
-| [CuadroSinoptico.mmd](CuadroSinoptico.mmd) | Código fuente Mermaid del cuadro sinóptico |
-| [mbddSinoptico.svg](mbddSinoptico.svg) | Diagrama vectorial editable en draw.io del cuadro sinóptico |
+
 
 ---
 

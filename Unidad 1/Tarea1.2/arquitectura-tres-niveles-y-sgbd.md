@@ -152,6 +152,10 @@ flowchart TB
 | **Diccionario de datos (catálogo)** | Almacena los metadatos: esquemas, restricciones y permisos. |
 
 
+
+| [CuadroSinoptico.mmd](CuadroSinoptico.mmd) | Código fuente Mermaid del cuadro sinóptico |
+| [mbddSinoptico.svg](mbddSinoptico.svg) | Diagrama vectorial editable en draw.io del cuadro sinóptico |
+
 ## Referencias
 
 ANSI/X3/SPARC Study Group on Data Base Management Systems. (1975). Interim report. *FDT – Bulletin of ACM SIGMOD, 7*(2).

@@ -30,6 +30,9 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Documento formal en formato PDF: `Tarea1.2.pdf`.
   * Documentación teórica y explicaciones.
 
+  ### [Unidad 2](Unidad)
+  ***
+
 ---
 
 ## 🛠️ Herramientas Utilizadas
