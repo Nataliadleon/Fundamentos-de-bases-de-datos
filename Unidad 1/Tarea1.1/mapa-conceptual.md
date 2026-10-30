@@ -1,8 +1,8 @@
 # Mapa conceptual: fundamentos, objetivos, usos y áreas de aplicación de las bases de datos
 
-![Mapa conceptual](DiagramaBDD.drawio.png)
+![Mapa conceptual](MapaConceptual.png)
 
-**Fuente vectorial:** [`DiagramaBDDdrawio.svg`](DiagramaBDDdrawio.svg)
+**Fuente vectorial:** [`MapaConceptual.svg`](MapaConceptual.svg)
 
 ## Estructura del mapa
 

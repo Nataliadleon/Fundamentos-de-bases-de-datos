@@ -31,7 +31,7 @@ El video explica el mapa conceptual y la comparativa de modelos, con captura de 
 
 ## 🗺️ Vista previa: mapa conceptual
 
-![Mapa conceptual de bases de datos](DiagramaBDD.drawio.png)
+![Mapa conceptual de bases de datos](MapaConceptual.png)
 
 ## 📊 Vista previa: tabla comparativa
 
