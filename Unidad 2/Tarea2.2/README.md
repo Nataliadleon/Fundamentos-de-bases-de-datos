@@ -1,7 +1,7 @@
 # Tarea 2.2: Transición de diagrama E-R a notación UML
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 2](../README.md) › **Tarea 2.2**
-&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 2.1](../Tarea2.1BDD/README.md)
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 2](../../README.md#unidad-2) › **Tarea 2.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 2.1](../Tarea2.1/README.md)
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática
@@ -31,12 +31,12 @@ Incluye la comparativa detallada E-R vs. UML y el análisis de coincidencias par
 |---|---|
 | [Tarea2.2.pdf](Tarea2.2.pdf) | Documento PDF con la comparativa E-R vs. UML y el análisis |
 | [comparativa-er-uml.md](comparativa-er-uml.md) | Documento completo en Markdown (incluye el diagrama en Mermaid) |
-| [diagramas/uml-tienda-abarrotes.mmd](diagramas/uml-tienda-abarrotes.mmd) | Fuente editable en draw.io |
+| [uml-tienda-abarrotes.mmd](uml-tienda-abarrotes.mmd) | Código Mermaid del diagrama de clases |
 
 
 ## 🗺️ Vista previa del diagrama
 
-![Diagrama de clases UML de la tienda de abarrotes](diagramas/uml-tienda-abarrotes.png)
+![Diagrama de clases UML de la tienda de abarrotes](uml-tienda-abarrotes.png)
 
 ## 🛠️ Herramientas utilizadas
 

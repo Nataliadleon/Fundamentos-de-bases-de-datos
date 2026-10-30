@@ -1,15 +1,15 @@
 # Transición del diagrama E-R a notación UML: tienda de abarrotes de barrio
 
-> Tarea 2.2, Unidad 2. Se convierte el diagrama E-R extendido de la [Tarea 2.1](../Tarea2.1BDD/modelo-er-tienda.md) a un diagrama de clases UML y se compara una notación con la otra.
+> Tarea 2.2, Unidad 2. Se convierte el diagrama E-R extendido de la [Tarea 2.1](../Tarea2.1/modelo-er-tienda.md) a un diagrama de clases UML y se compara una notación con la otra.
 
 ## 1. Diagrama de clases UML
 
-![Diagrama de clases UML](diagramas/uml-tienda-abarrotes.png)
+![Diagrama de clases UML](uml-tienda-abarrotes.png)
 
 Archivos del diagrama:
-- Fuente editable en draw.io: [`diagramas/uml-tienda-abarrotes.drawio`](diagramas/uml-tienda-abarrotes.drawio)
-- Vectorial: [`diagramas/uml-tienda-abarrotes.svg`](diagramas/uml-tienda-abarrotes.svg)
-- Código Mermaid: [`diagramas/uml-tienda-abarrotes.mmd`](diagramas/uml-tienda-abarrotes.mmd)
+- Fuente editable en draw.io: [`uml-tienda-abarrotes.drawio`](uml-tienda-abarrotes.drawio)
+- Vectorial: [`uml-tienda-abarrotes.svg`](uml-tienda-abarrotes.svg)
+- Código Mermaid: [`uml-tienda-abarrotes.mmd`](uml-tienda-abarrotes.mmd)
 
 En la versión Mermaid, `classDiagram` soporta clases, atributos, métodos, herencia, composición, agregación y multiplicidades. GitHub lo dibuja directamente:
 

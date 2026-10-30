@@ -55,8 +55,6 @@ flowchart TB
     class MAP1,MAP2 map
 ```
 
-**Fuente editable:** [`diagramas/arquitectura-tres-niveles.mmd`](diagramas/arquitectura-tres-niveles.mmd)
-
 | Nivel | Qué describe | Quién lo utiliza |
 |---|---|---|
 | **Externo (vistas)** | La parte de la base de datos que interesa a cada grupo de usuarios o aplicación, ocultando el resto. | Usuarios finales y aplicaciones |
@@ -136,8 +134,6 @@ flowchart TB
     class S1,S2,S3,S4 sm
     class K1,K2,K3,K4 dk
 ```
-
-**Fuente editable:** [`diagramas/arquitectura-sgbd.mmd`](diagramas/arquitectura-sgbd.mmd)
 
 | Módulo | Función |
 |---|---|

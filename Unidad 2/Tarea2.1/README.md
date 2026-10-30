@@ -1,6 +1,6 @@
 # Tarea 2.1: Modelado conceptual E-R y E-R Extendido de un caso real
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 2](../README.md) › **Tarea 2.1**
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 2](../../README.md#unidad-2) › **Tarea 2.1**
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática
@@ -26,7 +26,7 @@ Modelado conceptual de una **tienda de abarrotes de barrio** (negocio local) con
 
 | Archivo | Descripción |
 |---|---|
-| [Tarea2.1,pdf](Tarea2.1.pdf) | Documento PDF con el caso, reglas de negocio, tablas y diagrama |
+| [Tarea2.1.pdf](Tarea2.1.pdf) | Documento PDF con el caso, reglas de negocio, tablas y diagrama |
 | [modelo-er-tienda.md](modelo-er-tienda.md) | Documento completo en Markdown (incluye el diagrama en Mermaid) |
 
 
