@@ -59,9 +59,16 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Implementación del esquema físico relacional de la tienda de abarrotes en SQL Server.
   * Definición de tablas, tipos de datos, claves primarias y foráneas.
   * Resolución de herencia, atributos multivalorados y tablas intermedias para relaciones M:N.
-  * Documento formal en formato PDF: `Tarea3.2.pdf`.D
+  * Documento formal en formato PDF: `Tarea3.2.pdf`.
 
----
+### [Unidad 4](Unidad%204/)
+
+* **[Tarea 4.1: Lenguaje SQL DML y Restricciones](Unidad%204/Tarea%204.1/)**
+  * Consultas formales de normalización, las dependencias funcionales (completas y parciales), dependencias transitivas y las anomalías clásicas (inserción, borrado, modificación).
+  * Mapa Conceptual de normalización.
+  * Documento formal en formato PDF: `Tarea4.1.pdf`.
+  * Documentación detallada en Markdown y diagramas.
+
 
 ## 🛠️ Herramientas Utilizadas
 
