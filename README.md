@@ -46,6 +46,15 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Documento formal en formato PDF: `Tarea2.2.pdf`.
   * Documentación detallada en Markdown y diagramas.
 
+### [Unidad 3](Unidad%203/)
+
+* **[Tarea 3.1: Diseño del esquema físico relacional](Unidad%203/Tarea%203.1/)**
+  * Transformación del modelo E-R y UML al esquema físico relacional de la tienda de abarrotes.
+  * Definición de tablas, tipos de datos, claves primarias y foráneas.
+  * Resolución de herencia, atributos multivalorados y tablas intermedias para relaciones M:N.
+  * Documento formal en formato PDF: `Tarea3.1.pdf`.
+  * Diagrama en Mermaid: `Esquema Fisico.mmd`.
+
 ---
 
 ## 🛠️ Herramientas Utilizadas

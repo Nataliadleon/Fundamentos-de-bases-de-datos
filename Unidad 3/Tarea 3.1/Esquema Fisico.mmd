@@ -1,0 +1,100 @@
+erDiagram
+    PERSONA {
+        int id_persona PK
+        nvarchar nombre_pila
+        nvarchar apellido_paterno
+        nvarchar apellido_materno
+        date fecha_nacimiento
+    }
+    TELEFONO_PERSONA {
+        int id_persona PK, FK
+        varchar telefono PK
+    }
+    CLIENTE {
+        int id_persona PK, FK
+        decimal limite_credito
+        date fecha_registro
+    }
+    EMPLEADO {
+        int id_persona PK, FK
+        date fecha_contratacion
+        decimal salario
+        varchar puesto
+    }
+    CAJERO {
+        int id_persona PK, FK
+        varchar turno
+    }
+    REPARTIDOR {
+        int id_persona PK, FK
+        varchar licencia
+        nvarchar vehiculo
+    }
+    CATEGORIA {
+        int id_categoria PK
+        nvarchar nombre_cat
+    }
+    PRODUCTO {
+        varchar codigo_barras PK
+        nvarchar nombre
+        decimal costo_compra
+        decimal precio_venta
+        int stock_actual
+        int stock_minimo
+        int id_categoria FK
+    }
+    PROVEEDOR {
+        int id_proveedor PK
+        nvarchar razon_social
+        nvarchar calle
+        nvarchar numero
+        nvarchar colonia
+        char codigo_postal
+    }
+    TELEFONO_PROVEEDOR {
+        int id_proveedor PK, FK
+        varchar telefono PK
+    }
+    ABASTECIMIENTO {
+        int id_proveedor PK, FK
+        varchar codigo_barras PK, FK
+        decimal costo_unitario
+    }
+    PEDIDO_REABASTECIMIENTO {
+        int id_pedido PK
+        int id_proveedor FK
+        varchar codigo_barras FK
+        int id_empleado FK
+        date fecha_pedido
+        int cantidad_pedida
+    }
+    VENTA {
+        int folio PK
+        datetime2 fecha_hora
+        varchar metodo_pago
+        int id_cajero FK
+        int id_cliente FK
+        int id_repartidor FK
+    }
+    DETALLE_VENTA {
+        int folio PK, FK
+        varchar codigo_barras PK, FK
+        int cantidad
+        decimal precio_unitario
+    }
+    PERSONA ||--o{ TELEFONO_PERSONA : "tiene"
+    PERSONA ||--o| CLIENTE : "es"
+    PERSONA ||--o| EMPLEADO : "es"
+    EMPLEADO ||--o| CAJERO : "es"
+    EMPLEADO ||--o| REPARTIDOR : "es"
+    CATEGORIA ||..o{ PRODUCTO : "agrupa"
+    PROVEEDOR ||--o{ TELEFONO_PROVEEDOR : "tiene"
+    PROVEEDOR ||--o{ ABASTECIMIENTO : "suministra"
+    PRODUCTO ||--|{ ABASTECIMIENTO : "es suministrado"
+    ABASTECIMIENTO ||..o{ PEDIDO_REABASTECIMIENTO : "origina"
+    EMPLEADO ||..o{ PEDIDO_REABASTECIMIENTO : "autoriza"
+    CAJERO ||..o{ VENTA : "atiende"
+    CLIENTE |o..o{ VENTA : "realiza"
+    REPARTIDOR |o..o{ VENTA : "entrega"
+    VENTA ||--|{ DETALLE_VENTA : "contiene"
+    PRODUCTO ||--o{ DETALLE_VENTA : "aparece en"
