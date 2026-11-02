@@ -15,26 +15,6 @@
 
 Esta carpeta contiene la documentación formal, el análisis matemático de dependencias funcionales y el script SQL correspondiente a la **Tarea 4.2**, donde se toma una estructura real desnormalizada del proyecto de la **tienda de abarrotes de barrio** y se transforma paso a paso hasta alcanzar el estado totalmente normalizado:
 
-1. **De Estado Desnormalizado (0FN) a Primera Forma Normal (1FN):**
-   - Eliminación de grupos repetitivos anidados (líneas de detalle de tickets de venta).
-   - Conversión de atributos compuestos en atómicos (`nombre_pila`, `apellido_paterno`, `apellido_materno`, componentes de dirección).
-   - Extracción de atributos multivalorados (múltiples teléfonos por persona).
-   - Supresión de atributos calculados redundantes (`subtotal` y `total_venta`).
-   - Definición formal de la clave primaria compuesta $\{\text{Folio\_Venta}, \text{Codigo\_Barras}\}$.
-
-2. **De 1FN a Segunda Forma Normal (2FN):**
-   - Identificación y análisis de dependencias funcionales parciales sobre subconjuntos de la clave compuesta.
-   - Desacoplamiento de las entidades `VENTA`, `PRODUCTO` y `DETALLE_VENTA` para asegurar que todo atributo no primo posea dependencia funcional completa de su clave.
-
-3. **De 2FN a Tercera Forma Normal (3FN) y Validación de FNBC:**
-   - Detección y eliminación de dependencias transitivas:
-     - En productos: $\text{Codigo\_Barras} \to \text{ID\_Categoria} \to \text{Nombre\_Categoria}$.
-     - En ventas: $\text{Folio} \to \text{ID\_Persona} \to \text{Datos personales y contractuales}$.
-   - Especialización y generalización de entidades (`PERSONA`, `CLIENTE`, `EMPLEADO`, `CAJERO`, `REPARTIDOR`).
-   - Auditoría rigurosa de la **Forma Normal de Boyce-Codd (FNBC)**, verificando que todo determinante de una dependencia funcional sea una superclave.
-
-4. **Script SQL Corregido (T-SQL / SQL Server):**
-   - Implementación física en SQL Server del esquema normalizado resultante, con restricciones de clave, integridad referencial en cascada/no acción, restricciones `CHECK`, índices no agrupados, vistas para atributos derivados y datos de prueba.
 
 ---
 
