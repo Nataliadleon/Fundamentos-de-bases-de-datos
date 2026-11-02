@@ -69,6 +69,13 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Documento formal en formato PDF: `Tarea4.1.pdf`.
   * Documentación detallada en Markdown y diagramas.
 
+* **[Tarea 4.2: Normalización de Bases de Datos (De 0FN a 3FN/FNBC y Script SQL)](Unidad%204/Tarea%204.2/)**
+  * Transición metodológica paso a paso de una estructura desnormalizada del proyecto (registro universal de ventas) a 1FN, 2FN, 3FN y validación FNBC.
+  * Eliminación sistemática de grupos repetitivos, dependencias parciales y dependencias transitivas.
+  * Diagramas de flujo en Mermaid y análisis comparativo de anomalías.
+  * Nuevo script DDL/DML corregido en SQL Server: `schema_normalizado.sql`.
+  * Documentación técnica detallada: `transicion-normalizacion.md`.
+
 
 ## 🛠️ Herramientas Utilizadas
 

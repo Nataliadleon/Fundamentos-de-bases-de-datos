@@ -43,7 +43,7 @@ El video detalla los conceptos de dependencias funcionales, las anomalías clás
 | Archivo | Descripción |
 |---|---|
 | [Tarea4.1.pdf](Tarea4.1.pdf) | Documento formal con portada institucional, marco teórico, análisis de dependencias, mapa conceptual y referencias APA |
-| [mapa-normalizacion.md](mapa-normalizacion.md) | Documento en Markdown que describe el mapa conceptual y las reglas de normalización |
+| [mapa_conceptual_de_normalizacion.md](mapa_conceptual_de_normalizacion.md) | Documento en Markdown que describe el mapa conceptual y las reglas de normalización |
 | [DiagramaNormalizacion.png](DiagramaNormalizacion.png) | Diagrama conceptual de las formas normales |
 
 
