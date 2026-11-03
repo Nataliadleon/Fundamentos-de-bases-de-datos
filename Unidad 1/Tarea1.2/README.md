@@ -31,7 +31,7 @@ Esta carpeta contiene la documentación, esquemas y diagramas correspondientes a
 
 ## 🎥 Video explicativo
 
-▶️ **[Ver video en YouTube](PEGA-AQUI-EL-ENLACE-DEL-VIDEO)**
+▶️ **[Ver video en YouTube](https://youtu.be/99qcQzRJH1w)**
 
 El video detalla el cuadro sinóptico con los criterios de clasificación, los tres niveles de abstracción ANSI/SPARC y los componentes funcionales que operan dentro de un SGBD.
 

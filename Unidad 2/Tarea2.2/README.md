@@ -38,6 +38,10 @@ Incluye la comparativa detallada E-R vs. UML y el análisis de coincidencias par
 
 ![Diagrama de clases UML de la tienda de abarrotes](uml-tienda-abarrotes.png)
 
+## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](https://youtu.be/4kzZXmHCT14)**
+
 ## 🛠️ Herramientas utilizadas
 
 - [draw.io (diagrams.net)](https://app.diagrams.net/) para el diagrama de clases

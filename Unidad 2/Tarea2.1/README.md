@@ -34,6 +34,10 @@ Modelado conceptual de una **tienda de abarrotes de barrio** (negocio local) con
 
 ![Diagrama E-R extendido de la tienda de abarrotes](er-tienda-abarrotes.png)
 
+## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](https://youtu.be/cR4XYyyYOk4)**
+
 ## 🛠️ Herramientas utilizadas
 
 - [draw.io (diagrams.net)](https://app.diagrams.net/) para el diagrama formal

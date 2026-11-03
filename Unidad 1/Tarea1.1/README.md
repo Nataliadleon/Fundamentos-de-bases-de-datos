@@ -18,7 +18,7 @@ Esta carpeta contiene la documentación y los diagramas de la **Tarea 1.1**, que
 
 ## 🎥 Video explicativo
 
-▶️ **[Ver video en YouTube](PEGA-AQUI-EL-ENLACE-DEL-VIDEO)**
+▶️ **[Ver video en YouTube](https://youtu.be/MJIkn52BSIs)**
 
 El video explica el mapa conceptual y la comparativa de modelos, con captura de pantalla y cámara web en la esquina inferior derecha.
 

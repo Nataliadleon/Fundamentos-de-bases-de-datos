@@ -33,6 +33,10 @@ Transformación del modelo conceptual E-R y del diagrama de clases UML (Unidades
 
 ![Esquema físico relacional de la tienda de abarrotes](Esquema%20Fisico.png)
 
+## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](https://youtu.be/TJ_Uh1leQEM?si=MczxEa8gMx-SyM8P)**
+
 ## 🛠️ Herramientas utilizadas
 
 - [draw.io (diagrams.net)](https://app.diagrams.net/) para el diseño y exportación del esquema

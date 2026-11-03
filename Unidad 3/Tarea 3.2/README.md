@@ -22,7 +22,7 @@ Implementación en **Microsoft SQL Server** del esquema relacional de la tienda 
 
 ## 🎥 Video de la demostración
 
-▶️ **[Ver video en YouTube](PEGA-AQUI-EL-ENLACE-DEL-VIDEO)**
+▶️ **[Ver video en YouTube](https://youtu.be/14tySrSJfR4?si=INwQhlNCdWeBaeti)**
 
 Ejecución del script en SQL Server, con la creación limpia de las tablas y las llaves foráneas y la validación del esquema, con cámara web en la esquina inferior derecha.
 

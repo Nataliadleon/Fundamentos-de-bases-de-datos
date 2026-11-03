@@ -32,7 +32,7 @@ Esta carpeta contiene la documentación, esquemas y diagramas correspondientes a
 
 ## 🎥 Video explicativo
 
-▶️ **[Ver video en YouTube](PEGA-AQUI-EL-ENLACE-DEL-VIDEO)**
+▶️ **[Ver video en YouTube](https://youtu.be/qw14FvCDEY4)**
 
 El video detalla los conceptos de dependencias funcionales, las anomalías clásicas en bases de datos y la explicación paso a paso del mapa conceptual de las formas normales (de 1FN a 5FN).
 

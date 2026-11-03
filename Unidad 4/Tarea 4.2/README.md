@@ -49,6 +49,11 @@ flowchart LR
 
 ---
 
+
+## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](https://www.youtube.com/watch?v=C95i7IRMId4)**
+
 ## 🛠️ Herramientas utilizadas
 
 - **Modelado y Documentación:** Markdown, Mermaid.js
