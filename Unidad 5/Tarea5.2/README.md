@@ -13,7 +13,7 @@
 
 ## 📌 Descripción
 
-Esta carpeta contiene la resolución formal de un catálogo de **12 consultas relacionales** de complejidad progresiva formuladas sobre el esquema relacional normalizado (3FN / FNBC) del proyecto de la **tienda de abarrotes de barrio** (Tarea 4.2):
+
 
 1. **Requerimiento en Lenguaje Natural:** Especificación clara de la necesidad de información del negocio.
 2. **Expresión Formal en Álgebra Relacional:** Formulación matemática rigurosa utilizando la notación canónica de operadores unarios ($\sigma$, $\pi$, $\rho$), binarios ($\bowtie$, $\times$, $-$, $\cup$, $\cap$, $\div$) y extendidos ($\mathcal{G}$, $⟕$).
@@ -28,6 +28,7 @@ Esta carpeta contiene la resolución formal de un catálogo de **12 consultas re
 |---|---|
 | [consultas-algebra-relacional.md](consultas-algebra-relacional.md) | Catálogo formal completo con las 12 consultas resueltas, tablas intermedias paso a paso, equivalencias en SQL y matriz sinóptica |
 | [consultas_algebra_relacional.sql](consultas_algebra_relacional.sql) | Script ejecutable en Microsoft SQL Server (T-SQL) con las 12 consultas catalogadas y verificación automática de entorno |
+| [Tarea5.2.pdf](Tarea5.2.pdf) | Reporte de la tarea en formato PDF |
 
 ---
 
