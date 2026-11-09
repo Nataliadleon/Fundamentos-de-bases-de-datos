@@ -21,12 +21,11 @@ Sus propiedades principales son:
 
 ## 2. Mapa conceptual
 
-![Mapa conceptual del álgebra relacional](diagramas/mapa-algebra-relacional.png)
+![Mapa conceptual del álgebra relacional](AlgebraRelacionalMC.png)
 
-Archivos del mapa:
-- Fuente editable en draw.io: [`diagramas/mapa-algebra-relacional.drawio`](diagramas/mapa-algebra-relacional.drawio)
-- Vectorial: [`diagramas/mapa-algebra-relacional.svg`](diagramas/mapa-algebra-relacional.svg)
-- Código Mermaid: [`diagramas/mapa-algebra-relacional.mmd`](diagramas/mapa-algebra-relacional.mmd)
+
+- Vectorial: [`diagramas/mapa-algebra-relacional.svg`](mapa-algebra-relacional.svg)
+
 
 Versión en Mermaid (GitHub la dibuja directamente):
 

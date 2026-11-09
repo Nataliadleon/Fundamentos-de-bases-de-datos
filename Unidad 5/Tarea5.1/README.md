@@ -1,6 +1,6 @@
 # Tarea 5.1: Mapa conceptual de operadores del álgebra relacional
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 5](../README.md) › **Tarea 5.1**
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 5](../../README.md#unidad-5) › **Tarea 5.1**
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática
@@ -28,11 +28,11 @@ Cada operador incluye su definición formal, un ejemplo con la tienda de abarrot
 |---|---|
 | [Tarea5.1BasesDeDatos.pdf](Tarea5.1.pdf) | Documento PDF con el mapa conceptual y el marco teórico |
 | [algebra-relacional.md](algebra-relacional.md) | Marco teórico completo en Markdown (con fórmulas y ejemplos) |
-| [diagramas/mapa-algebra-relacional.svg](diagramas/mapa-algebra-relacional.svg) | Mapa en formato vectorial |
+| [diagramas/mapa-algebra-relacional.svg](mapa-algebra-relacional.svg) | Mapa en formato vectorial |
 
 ## 🗺️ Vista previa del mapa conceptual
 
-![Mapa conceptual del álgebra relacional](diagramas/mapa-algebra-relacional.png)
+![Mapa conceptual del álgebra relacional](AlgebraRelacionalMC.png)
 
 ## 🛠️ Herramientas utilizadas
 

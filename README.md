@@ -76,11 +76,27 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Nuevo script DDL/DML corregido en SQL Server: `schema_normalizado.sql`.
   * Documentación técnica detallada: `transicion-normalizacion.md`.
 
+### [Unidad 5](Unidad%205/)
+
+* **[Tarea 5.1: Mapa conceptual de operadores del álgebra relacional](Unidad%205/Tarea5.1/)**
+  * Notación formal y significado de los operadores unarios (selección, proyección, renombrado), binarios (unión, intersección, diferencia, producto cartesiano, join, división) y extendidos (agregación, proyecciones generalizadas, outer joins).
+  * Mapa conceptual en formato gráfico y vectorial.
+  * Documento formal en formato PDF: `Tarea5.1.pdf`.
+  * Marco teórico detallado en Markdown: `algebra-relacional.md`.
+
+* **[Tarea 5.2: Resolución de consultas sobre el esquema relacional con álgebra formal](Unidad%205/Tarea5.2/)**
+  * Catálogo formal de 12 consultas relacionales de complejidad progresiva (básicas, intermedias y avanzadas) aplicadas sobre el esquema normalizado de la tienda de abarrotes.
+  * Formulación matemática en álgebra relacional con operadores canónicos y extendidos ($\sigma, \pi, \rho, \bowtie, -, \cup, \div, \mathcal{G}, ⟕$).
+  * Desglose procedimental de relaciones y esquemas intermedios con datos de prueba evaluados paso a paso.
+  * Equivalencias declarativas en lenguaje SQL Server (T-SQL).
+  * Documento analítico en Markdown: `consultas-algebra-relacional.md`.
+  * Script SQL ejecutable en SQL Server: `consultas_algebra_relacional.sql`.
+
+---
 
 ## 🛠️ Herramientas Utilizadas
 
-- **Documentación:** Markdown
+- **Documentación:** Markdown, KaTeX
 - **Diagramas:** Mermaid.js, draw.io
-- **SGBD:** SQL Server
+- **SGBD:** Microsoft SQL Server (T-SQL)
 - **Control de versiones:** Git y GitHub
-
