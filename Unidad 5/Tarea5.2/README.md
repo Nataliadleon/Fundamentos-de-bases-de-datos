@@ -51,6 +51,10 @@
 
 ---
 
+
+▶️ **[Ver video en YouTube](https://youtu.be/PhNUb6vSDNg)**
+
+
 ## 🛠️ Herramientas utilizadas
 
 - **Modelado Formal:** Álgebra Relacional (Notación matemática Codd / Elmasri & Navathe)

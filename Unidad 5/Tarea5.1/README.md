@@ -34,6 +34,14 @@ Cada operador incluye su definición formal, un ejemplo con la tienda de abarrot
 
 ![Mapa conceptual del álgebra relacional](AlgebraRelacionalMC.png)
 
+
+## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](## 🎥 Video explicativo
+
+▶️ **[Ver video en YouTube](https://www.youtube.com/watch?v=C95i7IRMId4)**)**
+
+
 ## 🛠️ Herramientas utilizadas
 
 - [draw.io (diagrams.net)](https://app.diagrams.net/) y [Mermaid](https://mermaid.js.org/) para el mapa conceptual
