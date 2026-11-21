@@ -98,12 +98,20 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Características generales del lenguaje SQL, evolución y estándares ANSI/ISO.
   * Tabla comparativa y taxonómica de comandos: LDD (`CREATE`, `ALTER`, `DROP`, `TRUNCATE`) vs. LMD (`INSERT`, `UPDATE`, `DELETE`, `SELECT`).
   * Sintaxis formal BNF, parámetros, restricciones y opciones avanzadas en Microsoft SQL Server (T-SQL).
-  * Documento formal editable en Word: `Tarea6.1_Sintaxis_Clasificacion_SQL.docx`.
+  * Documento formal en formato PDF: `Tarea6.1_Sintaxis_Clasificacion_SQL.pdf`.
+  * Documento editable en Word: `Tarea6.1_Sintaxis_Clasificacion_SQL.docx`.
   * Guion detallado para video explicativo con cámara web en YouTube: `guion-video-tarea6.1.md`.
   * Documentación técnica en Markdown: `sintaxis-clasificacion-sql.md`.
 
 * **[Tarea 6.2: Implementación de script DDL, carga de datos y consultas DML](Unidad%206/Tarea6.2/)**
-  * *(En desarrollo)* Scripts modulares `01_schema_ddl.sql`, `02_data_inserts.sql`, `03_queries_dml.sql` y reporte de ejecución.
+  * Scripts modulares y reproducibles en Transact-SQL (SQL Server): `01_schema_ddl.sql`, `02_data_inserts.sql` y `03_queries_dml.sql`.
+  * Creación del esquema físico con 14 tablas relacionales, claves primarias, foráneas (reglas `CASCADE` y `NO ACTION`), restricciones `CHECK`, `UNIQUE`, `DEFAULT` e índices.
+  * Inserción ordenada de tuplas representativas respetando la jerarquía de integridad referencial.
+  * Catálogo analítico de consultas `SELECT` (`WHERE`, `ORDER BY`, `GROUP BY`, `HAVING`, funciones de agregación, `INNER JOIN`, `LEFT JOIN`).
+  * Pruebas controladas de mantenimiento (`UPDATE` simple y con `JOIN`, bloqueo de borrado por integridad referencial y eliminación en cascada multi-nivel).
+  * Reporte técnico en formato PDF con evidencias de ejecución: `Tarea6.2_Reporte_Tecnico_SQL.pdf`.
+  * Documento editable en Word: `Tarea6.2_Reporte_Tecnico_SQL.docx`.
+  * Guion para demostración en vivo en YouTube con cámara web: `guion-video-tarea6.2.md`.
 
 ---
 

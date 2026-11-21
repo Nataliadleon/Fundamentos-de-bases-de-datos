@@ -27,7 +27,9 @@ Cada comando cuenta con su sintaxis formal BNF, parámetros técnicos, restricci
 | Archivo | Descripción |
 |---|---|
 | [sintaxis-clasificacion-sql.md](sintaxis-clasificacion-sql.md) | Documentación técnica exhaustiva en Markdown con tablas taxonómicas y sintaxis formal |
-| [Tarea6.1_Sintaxis_Clasificacion_SQL.pdf](Tarea6.1_Sintaxis_Clasificacion_SQL.pdf) | Documento en formato PDF listo para entrega formal |
+| [Tarea6.1_Sintaxis_Clasificacion_SQL.pdf](Tarea6.1_Sintaxis_Clasificacion_SQL.pdf) | Documento estructurado en formato PDF con la tabla comparativa y sintaxis formal |
+| [Tarea6.1_Sintaxis_Clasificacion_SQL.docx](Tarea6.1_Sintaxis_Clasificacion_SQL.docx) | Documento editable en Microsoft Word |
+| [guion-video-tarea6.1.md](guion-video-tarea6.1.md) | Guion estructurado paso a paso para la grabación del video en YouTube |
 
 ---
 
