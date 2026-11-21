@@ -92,6 +92,19 @@ Repositorio de evidencias, tareas y proyectos de la materia **Fundamentos de Bas
   * Documento analítico en Markdown: `consultas-algebra-relacional.md`.
   * Script SQL ejecutable en SQL Server: `consultas_algebra_relacional.sql`.
 
+### [Unidad 6](Unidad%206/)
+
+* **[Tarea 6.1: Sintaxis y clasificación de sentencias SQL (LDD y LMD)](Unidad%206/Tarea6.1/)**
+  * Características generales del lenguaje SQL, evolución y estándares ANSI/ISO.
+  * Tabla comparativa y taxonómica de comandos: LDD (`CREATE`, `ALTER`, `DROP`, `TRUNCATE`) vs. LMD (`INSERT`, `UPDATE`, `DELETE`, `SELECT`).
+  * Sintaxis formal BNF, parámetros, restricciones y opciones avanzadas en Microsoft SQL Server (T-SQL).
+  * Documento formal editable en Word: `Tarea6.1_Sintaxis_Clasificacion_SQL.docx`.
+  * Guion detallado para video explicativo con cámara web en YouTube: `guion-video-tarea6.1.md`.
+  * Documentación técnica en Markdown: `sintaxis-clasificacion-sql.md`.
+
+* **[Tarea 6.2: Implementación de script DDL, carga de datos y consultas DML](Unidad%206/Tarea6.2/)**
+  * *(En desarrollo)* Scripts modulares `01_schema_ddl.sql`, `02_data_inserts.sql`, `03_queries_dml.sql` y reporte de ejecución.
+
 ---
 
 ## 🛠️ Herramientas Utilizadas
