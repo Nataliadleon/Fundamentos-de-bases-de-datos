@@ -2,7 +2,7 @@
 
 ![Mapa conceptual](MapaConceptual.png)
 
-**Fuente vectorial:** [`MapaConceptual.svg`](MapaConceptual.svg)
+**Fuente vectorial:** [`DiagramaBDDdrawio.svg`](DiagramaBDDdrawio.svg)
 
 ## Estructura del mapa
 

@@ -1,13 +1,16 @@
 # Tarea 1.1: Fundamentos, objetivos y modelos de bases de datos
 
-**Tecnológico Nacional de México**
-**Carrera:** Ingeniería Informática
-**Materia:** Fundamentos de Base de Datos
-**Unidad:** 1
-**Alumna:** Gabriela Natalia De León Alvarez
-**Matrícula:** I24050006
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 1](../../README.md#unidad-1) › **Tarea 1.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 1.2](../Tarea1.2/README.md)
 
-.
+**Tecnológico Nacional de México**  
+**Carrera:** Ingeniería Informática  
+**Materia:** Fundamentos de Base de Datos  
+**Unidad:** 1  
+**Alumna:** Gabriela Natalia De León Alvarez  
+**Matrícula:** I24050006  
+
+---
 
 ## 📌 Descripción
 
@@ -22,6 +25,9 @@ Esta carpeta contiene la documentación y los diagramas de la **Tarea 1.1**, que
 
 El video explica el mapa conceptual y la comparativa de modelos, con captura de pantalla y cámara web en la esquina inferior derecha.
 
+---
+
+## 📂 Contenido de la carpeta
 
 | Archivo | Descripción |
 |---|---|

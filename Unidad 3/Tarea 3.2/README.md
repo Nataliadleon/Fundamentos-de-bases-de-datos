@@ -1,7 +1,7 @@
 # Tarea 3.2: Generación del esquema físico en SGBD y script LDD
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 3](../README.md) › **Tarea 3.2**
-&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 3.1](../Tarea3.1BDD/README.md)
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 3](../../README.md#unidad-3) › **Tarea 3.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 3.1](../Tarea%203.1/README.md)
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática

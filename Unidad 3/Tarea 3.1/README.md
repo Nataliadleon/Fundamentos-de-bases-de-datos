@@ -1,6 +1,7 @@
 # Tarea 3.1: Diseño del esquema físico relacional de la tienda de abarrotes
 
 📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 3](../../README.md#unidad-3) › **Tarea 3.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 3.2](../Tarea%203.2/README.md)
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática

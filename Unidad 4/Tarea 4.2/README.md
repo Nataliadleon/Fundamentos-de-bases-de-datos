@@ -1,6 +1,7 @@
 # Tarea 4.2: Normalización de Bases de Datos (De 0FN a 3FN/FNBC y Script SQL)
 
 📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 4](../../README.md#unidad-4) › **Tarea 4.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 4.1](../Tarea%204.1/README.md)
 
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
@@ -14,6 +15,11 @@
 ## 📌 Descripción
 
 Esta carpeta contiene la documentación formal, el análisis matemático de dependencias funcionales y el script SQL correspondiente a la **Tarea 4.2**, donde se toma una estructura real desnormalizada del proyecto de la **tienda de abarrotes de barrio** y se transforma paso a paso hasta alcanzar el estado totalmente normalizado:
+
+1. **0FN (Tabla Universal Desnormalizada):** Identificación de grupos repetitivos, redundancias y anomalías operativas.
+2. **Primera Forma Normal (1FN):** Garantía de atomicidad de atributos y definición de clave primaria compuesta `{folio, codigo_barras}`.
+3. **Segunda Forma Normal (2FN):** Eliminación de dependencias funcionales parciales, descomponiendo en entidades `VENTA`, `DETALLE_VENTA` y `PRODUCTO`.
+4. **Tercera Forma Normal (3FN) y FNBC:** Eliminación de dependencias transitivas y verificación rigurosa de determinantes como superclaves.
 
 
 ---

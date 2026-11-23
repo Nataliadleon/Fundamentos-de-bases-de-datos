@@ -1,6 +1,7 @@
 # Tarea 5.1: Mapa conceptual de operadores del álgebra relacional
 
 📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 5](../../README.md#unidad-5) › **Tarea 5.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 5.2](../Tarea5.2/README.md)
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática
@@ -37,9 +38,7 @@ Cada operador incluye su definición formal, un ejemplo con la tienda de abarrot
 
 ## 🎥 Video explicativo
 
-▶️ **[Ver video en YouTube](## 🎥 Video explicativo
-
-▶️ **[Ver video en YouTube](https://www.youtube.com/watch?v=C95i7IRMId4)**)**
+▶️ **[Ver video en YouTube: Tarea 5.1 - Álgebra Relacional](https://youtu.be/vxi7SJCBqgE)**
 
 
 ## 🛠️ Herramientas utilizadas

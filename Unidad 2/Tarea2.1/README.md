@@ -1,6 +1,7 @@
 # Tarea 2.1: Modelado conceptual E-R y E-R Extendido de un caso real
 
 📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 2](../../README.md#unidad-2) › **Tarea 2.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 2.2](../Tarea2.2/README.md)
 
 **Tecnológico Nacional de México**
 **Carrera:** Ingeniería Informática

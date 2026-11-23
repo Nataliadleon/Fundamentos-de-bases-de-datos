@@ -8,8 +8,8 @@
 
 Archivos del diagrama:
 - Fuente editable en draw.io: [`uml-tienda-abarrotes.drawio`](uml-tienda-abarrotes.drawio)
-- Vectorial: [`uml-tienda-abarrotes.svg`](uml-tienda-abarrotes.svg)
 - Código Mermaid: [`uml-tienda-abarrotes.mmd`](uml-tienda-abarrotes.mmd)
+- Imagen de alta resolución: [`uml-tienda-abarrotes.png`](uml-tienda-abarrotes.png)
 
 En la versión Mermaid, `classDiagram` soporta clases, atributos, métodos, herencia, composición, agregación y multiplicidades. GitHub lo dibuja directamente:
 

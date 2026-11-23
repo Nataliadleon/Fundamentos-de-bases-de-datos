@@ -1,5 +1,8 @@
 # Tarea 4.1: Normalización de Bases de Datos (Formas Normales y Anomalías)
 
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 4](../../README.md#unidad-4) › **Tarea 4.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 4.2](../Tarea%204.2/README.md)
+
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
 **Materia:** Fundamentos de Base de Datos  
@@ -53,7 +56,7 @@ El video detalla los conceptos de dependencias funcionales, las anomalías clás
 
 ### 1. Mapa conceptual: Reglas y formas normales en el diseño de bases de datos
 
-![DiagramaNormaloizacion.png](DiagramaNormalizacion.png)
+![Mapa conceptual de normalización](DiagramaNormalizacion.png)
 
 ---
 

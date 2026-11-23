@@ -1,6 +1,7 @@
 # Tarea 6.1: Sintaxis y Clasificación de Sentencias SQL (LDD y LMD)
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › Unidad 6 › **Tarea 6.1**
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 6](../../README.md#unidad-6) › **Tarea 6.1**
+&nbsp;&nbsp;|&nbsp;&nbsp; ➡️ [Ir a la Tarea 6.2](../Tarea6.2/README.md)
 
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
@@ -28,15 +29,13 @@ Cada comando cuenta con su sintaxis formal BNF, parámetros técnicos, restricci
 |---|---|
 | [sintaxis-clasificacion-sql.md](sintaxis-clasificacion-sql.md) | Documentación técnica exhaustiva en Markdown con tablas taxonómicas y sintaxis formal |
 | [Tarea6.1_Sintaxis_Clasificacion_SQL.pdf](Tarea6.1_Sintaxis_Clasificacion_SQL.pdf) | Documento estructurado en formato PDF con la tabla comparativa y sintaxis formal |
-| [Tarea6.1_Sintaxis_Clasificacion_SQL.docx](Tarea6.1_Sintaxis_Clasificacion_SQL.docx) | Documento editable en Microsoft Word |
-| [guion-video-tarea6.1.md](guion-video-tarea6.1.md) | Guion estructurado paso a paso para la grabación del video en YouTube |
 
 ---
 
 ## 🎥 Video Explicativo en YouTube
 
 
-▶️ **[Ver video en YouTube: Tarea 6.1 - LDD vs LMD](https://www.youtube.com/)**
+▶️ **[Ver video en YouTube: Tarea 6.1 - LDD y LMD](https://youtu.be/hno7MmgC1xQ)**
 
 ---
 

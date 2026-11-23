@@ -1,6 +1,7 @@
 # Tarea 5.2: Resolución de Consultas sobre el Esquema Relacional con Álgebra Formal
 
 📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 5](../../README.md#unidad-5) › **Tarea 5.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 5.1](../Tarea5.1/README.md)
 
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
@@ -13,7 +14,7 @@
 
 ## 📌 Descripción
 
-
+Resolución formal y procedimental de un catálogo de 12 consultas analíticas sobre el esquema relacional de la tienda de abarrotes, estructuradas en cuatro dimensiones por cada requerimiento:
 
 1. **Requerimiento en Lenguaje Natural:** Especificación clara de la necesidad de información del negocio.
 2. **Expresión Formal en Álgebra Relacional:** Formulación matemática rigurosa utilizando la notación canónica de operadores unarios ($\sigma$, $\pi$, $\rho$), binarios ($\bowtie$, $\times$, $-$, $\cup$, $\cap$, $\div$) y extendidos ($\mathcal{G}$, $⟕$).
@@ -51,6 +52,7 @@
 
 ---
 
+## 🎥 Video explicativo
 
 ▶️ **[Ver video en YouTube](https://youtu.be/PhNUb6vSDNg)**
 

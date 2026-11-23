@@ -1,6 +1,7 @@
 # Tarea 6.2: Implementación de Script DDL, Carga de Datos y Consultas DML
 
-📍 [Fundamentos de Bases de Datos](../../README.md) › Unidad 6 › **Tarea 6.2**
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 6](../../README.md#unidad-6) › **Tarea 6.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 6.1](../Tarea6.1/README.md)
 
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
@@ -66,8 +67,6 @@ sqlcmd -S localhost -E -i 03_queries_dml.sql
 
 ---
 
-## 🎥 Video Demostrativo en Vivo (YouTube)
+## 🎥 Video Demostrativo (YouTube)
 
-> ⚠️ *El enlace se integrará una vez realizada la grabación en vivo con la ejecución de los scripts en SSMS y cámara web en la esquina inferior derecha.*
-
-▶️ **[Ver demostración en vivo en YouTube: Tarea 6.2 - Ejecución DDL y DML](https://www.youtube.com/)**
+▶️ **[Ver demostración en vivo en YouTube: Tarea 6.2 - Ejecución DDL y DML](https://youtu.be/Zvuz2pyzy98)**

@@ -1,5 +1,8 @@
 # Tarea 1.2: Clasificación de Bases de Datos y Arquitecturas (ANSI/SPARC y SGBD)
 
+📍 [Fundamentos de Bases de Datos](../../README.md) › [Unidad 1](../../README.md#unidad-1) › **Tarea 1.2**
+&nbsp;&nbsp;|&nbsp;&nbsp; ⬅️ [Ir a la Tarea 1.1](../Tarea1.1/README.md)
+
 **Tecnológico Nacional de México**  
 **Carrera:** Ingeniería Informática  
 **Materia:** Fundamentos de Base de Datos  

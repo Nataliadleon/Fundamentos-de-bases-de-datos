@@ -1,6 +1,6 @@
 # Generación del esquema físico en SQL Server y script LDD
 
-> Tarea 3.2, Unidad 3. Implementación física del esquema relacional de la [Tarea 3.1](../Tarea3.1BDD/reporte-tecnico-relacional.md) (tienda de abarrotes de barrio).
+> Tarea 3.2, Unidad 3. Implementación física del esquema relacional de la [Tarea 3.1](../Tarea%203.1/README.md) (tienda de abarrotes de barrio).
 
 ## 1. Objetivo y alcance
 
@@ -333,9 +333,9 @@ La tarea pide el diagrama **generado por el SGBD**. Para obtenerlo en SSMS:
 ### 8.2 Diagrama de referencia
 Este diagrama muestra los mismos objetos con los tipos de SQL Server. Sirve como apoyo y no sustituye al diagrama de SSMS.
 
-![Esquema físico de la tienda de abarrotes](diagramas/esquema-fisico.png)
+![Esquema físico de la tienda de abarrotes](EsquemaSQL.png)
 
-Archivos: [`esquema-fisico.drawio`](diagramas/esquema-fisico.drawio), [`esquema-fisico.svg`](diagramas/esquema-fisico.svg) y [`esquema-fisico.mmd`](diagramas/esquema-fisico.mmd).
+Archivos de referencia: [`Esquema Fisico.mmd`](../Tarea%203.1/Esquema%20Fisico.mmd) y [`Esquema Fisico.svg`](../Tarea%203.1/Esquema%20Fisico.svg).
 
 ## 9. Estructura del script `schema.sql`
 
