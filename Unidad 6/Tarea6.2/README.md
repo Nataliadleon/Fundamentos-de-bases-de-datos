@@ -33,8 +33,6 @@ Implementación integral y modular del esquema relacional del caso de estudio de
 | [02_data_inserts.sql](02_data_inserts.sql) | **LMD / DML** | Carga masiva y representativa de datos de prueba |
 | [03_queries_dml.sql](03_queries_dml.sql) | **LMD / DML** | Catálogo de 8 consultas analíticas + 5 pruebas de integridad |
 | [Tarea6.2_Reporte_Tecnico_SQL.pdf](Tarea6.2_Reporte_Tecnico_SQL.pdf) | **Reporte PDF** | Reporte técnico formal con evidencias y capturas de ejecución en SSMS |
-| [Tarea6.2_Reporte_Tecnico_SQL.docx](Tarea6.2_Reporte_Tecnico_SQL.docx) | **Documento Word** | Documento editable en Microsoft Word |
-| [guion-video-tarea6.2.md](guion-video-tarea6.2.md) | **Video** | Guion paso a paso para la demostración en vivo en YouTube |
 
 ---
 
